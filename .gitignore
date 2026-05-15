@@ -1,0 +1,58 @@
+# Local agent/editor state
+.agents/
+.codex/
+.vscode/
+.idea/
+
+# Python/runtime artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local config and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.csr
+credentials.json
+client_secret*.json
+token*.json
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated model artifacts
+outputs/
+report.pdf
+
+# LaTeX/PDF build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# OS files
+.DS_Store
+Thumbs.db
