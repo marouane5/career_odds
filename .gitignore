@@ -38,7 +38,7 @@ token*.json
 
 # Generated model artifacts
 outputs/
-report.pdf
+
 
 # LaTeX/PDF build artifacts
 *.aux
